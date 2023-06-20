@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <test name="Selenium Tests">
+        <classes>
+            <class name="testcases.TestCaseValid2"/>
+            <class name="testcases.TestCaseDelete"/>
+            <class name="testcases.TestCaseUpdate"/>
+            <class name="testcases.TestCaseValidCreateUser"/>
+            <class name="testcases.TestCaseValid3"/>
+        </classes>
+    </test>
+</suite>

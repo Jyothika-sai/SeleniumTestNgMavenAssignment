@@ -1,0 +1,52 @@
+{
+  "tc01": {
+    "searchText": "8688055719",
+    "searchText1": "Selenium@1234",
+    "expectedMessage": "Valid"
+  },
+  "tc02": {
+    "searchText": "Manasa",
+    "searchText1": "manasa",
+    "expectedMessage": "Invalid"
+  },
+  "tc03": {
+    "searchText": "8688055719",
+    "searchText1": "Selenium1234",
+    "expectedMessage": "Valid Username and Invalid password"
+  },
+  "tc04": {
+    "searchText": "8688055719098",
+    "searchText1": "Selenium@1234",
+    "expectedMessage": "InValid Username and valid password"
+  },
+  "tc05": {
+    "searchText": "",
+    "searchText1": "Selenium@1234",
+    "expectedMessage": "Blank Username and valid password"
+  },
+  "tc06": {
+    "searchText": "8688055719",
+    "searchText1": "",
+    "expectedMessage": "Valid Username and Blank password"
+  },
+  "tc07": {
+    "searchText": "",
+    "searchText1": "",
+    "expectedMessage": "Blank Username and Blank password"
+  },
+  "tc08": {
+    "searchText": "8688055719",
+    "searchText1": "",
+    "expectedMessage": "Valid Username and Blank password"
+  },
+  "tc09": {
+    "searchText": "",
+    "searchText1": "Selenium1234",
+    "expectedMessage": "Blank Username and invalid password"
+  },
+  "tc10": {
+    "searchText": "Selenium",
+    "searchText1": "",
+    "expectedMessage": "invalid Username and blank password"
+  }
+}

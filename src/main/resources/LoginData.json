@@ -1,0 +1,19 @@
+{
+  "url": "https://www.facebook.com/",
+  "user1": {
+    "userId": "8688055719",
+    "password": "Selenium@1234"
+  },
+  "user2": {
+    "userId": "9353712360",
+    "password": "Selenium@123"
+  },
+  "user3": {
+    "userId": "7013596959",
+    "password": "Selenium@12"
+  },
+  "user4": {
+    "userId": "6304182044",
+    "password": "Selenium@1"
+  }
+}
